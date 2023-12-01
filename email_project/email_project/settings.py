@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'email_sender_app'  # Write app name here
+    'email_sender_app' # Write app name here
 ]
 
 MIDDLEWARE = [
@@ -117,8 +117,8 @@ STATIC_URL = '/static/'
 # EMAIL Related
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST_USER = 'yourmail@gmail.com'  # TODO: Your email
+EMAIL_HOST_USER = 'srinivasballatgi701@gmail.com'  # TODO: Your email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = ''  # TODO: Give APP Password here
+EMAIL_HOST_PASSWORD = 'nsysvddquyfwrpgp'  # TODO: Give APP Password here
 EMAIL_USE_TLS = True
